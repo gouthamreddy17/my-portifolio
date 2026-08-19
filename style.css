@@ -29,7 +29,7 @@ body{
     font-size: 14px;
     background-color: #F35503;
     border: 0px;
-    border-radius: 16px 16px 16px 2px;
+    border-radius: 36px 16px 26px 1px;
 }
 
 
@@ -92,4 +92,110 @@ body{
     padding: 20px;
 
     
+}
+
+.imm{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+}
+
+.outer{
+    width: 87%;
+
+    height: 10px;
+    border-radius: 30px;
+    background-color: rgb(174, 174, 192);
+    position: absolute;
+    bottom:25px;
+    left:80px;
+}
+
+.inner{
+    width: 90%;
+
+    height: 10px;
+    border-radius: 30px;
+    background-color:#F35503;
+
+}
+.inner-sql{
+    width: 80%;
+
+    height: 10px;
+    border-radius: 30px;
+    background-color:#F35503;
+}
+.inner-html{
+    width: 95%;
+
+    height: 10px;
+    border-radius: 30px;
+    background-color:#F35503;
+}
+.inner-css{
+    width: 85%;
+
+    height: 10px;
+    border-radius: 30px;
+    background-color:#F35503;
+
+}
+.inner-js{
+    width: 80%;
+
+    height: 10px;
+    border-radius: 30px;
+    background-color:#F35503;
+
+}
+.skills-sec{
+    display: flex;
+    position: relative;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.ab1{
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 0px;
+    top:-40px;
+}
+
+.ab2{
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    right: 0px;
+    top:-40px;
+
+}
+
+.other{
+    padding: 100px;
+    background-color: #323030;
+}
+.skills-card{
+    background-color: #1c1b1b;
+    padding: 20px;
+    border-radius: 20px;
+    width: 60%;
+}
+
+.list{
+    color: #717070;
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+
+.skill-card{
+    background-color: #1c1b1b;
+    padding: 20px;
+    border-radius: 20px;
+    width: 60%;
+
 }
