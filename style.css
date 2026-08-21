@@ -199,3 +199,25 @@ body{
     width: 60%;
 
 }
+
+.project-icon{
+    font-size: 80px;
+}
+
+.proj-button{
+    padding: 4px;
+    color: #717070;
+    background: none;
+    border: 2px solid #717070;
+    border-radius: 4px;
+}
+
+.project-back{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 1px 1px 10px #F35503;
+}
