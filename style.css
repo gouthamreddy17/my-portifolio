@@ -219,5 +219,35 @@ body{
     background-color: #1c1c1c;
     padding: 20px;
     border-radius: 9px;
-    box-shadow: 1px 1px 10px #F35503;
+}
+
+.hrr{
+    height: 160px;
+    width: 3px;
+    opacity: 0.6;
+    background-color: #F35503;
+    line-height: 0px;
+    z-index: -10px;
+}
+
+.dot{
+    line-height: 0px;
+    color: #F35503;
+    font-size: 119px;
+    z-index: 10px;
+}
+
+.cer-re{
+    position: relative;
+}
+
+.cer-ab{
+    position: absolute;
+    left: -12.9px;
+    top:135px;
+    z-index: 1px;
+}
+.card-ab{
+    position: absolute;
+    background-color: #323030;
 }
